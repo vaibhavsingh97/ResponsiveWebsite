@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mobile Operating System | Android</title>
+	<script type="text/javascript" src='http://codeorigin.jquery.com/jquery-2.0.3.min.js'></script>
+	<script type="text/javascript" src='js/jquery.stellar.min.js'></script>
+	<script type="text/javascript" src='js/jquery.waypoints.js'></script>
+	<script type="text/javascript" src='js/jquery.easing.1.3.js'></script>
+	<script type="text/javascript" src='js/waypoints.js'></script>
+	<script type="text/javascript" src='js/main.js'></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+       <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>	
+	   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+	<script>
+ 
+    
+
+  
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+  
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+
+
+</script>
+
+</head>
+<body>
+<nav>
+	<ul class="navigation">
+	<li class="back"><a href="index.html">Back to Home</a></li>
+	<li data-slide='1'><a href="#slide2" class="active">About Android</li>
+	<li data-slide='2'><a href="#slide3">History of Android</li>
+	<li data-slide='3'><a href="#slide4">Story of Android</li>
+	</ul>
+</nav>
+<div class="main">	</div>
+
+	<div class="slide" id="slide1" data-slide='1' data-stellar-backgrounrd-ratio='0.5'>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 slide-1-logo">
+					<img src="img/logo.png" class="mainimg">					
+				</div>
+				<div class="col-md-6"><h1>be together.not the same</h1></div>
+				<p>welcome to android... be yourself. do your thing. see what's going on. 	</p>
+				<div class="video-slide-2">
+				<iframe width="800" height="420" src="https://www.youtube.com/embed/TRmgMe2STL0?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>	
+		</div>
+		<a class="button" data-slide='2' title=''></a>
+	</div>
+	<div class="slide" id="slide2" data-slide='2' data-stellar-backgrounrd-ratio='0.5'>
+	<div class="transbox">
+	<h1>About</h1>
+	<p>Android is a software package and linux based operating system for mobile devices such as tablet computers and smartphones.<br>
+It is developed by Google and later the OHA (Open Handset Alliance). Java language is mainly used to write the android code even though other languages can be used.
+The goal of android project is to create a successful real-world product that improves the mobile experience for end users.
+Android powers hundreds of millions of mobile devices in more than 190 countries around the world. <br>It's the largest installed base of any mobile platform and growing fast every day another million users power up their Android devices for the first time and start looking for apps, games, and other digital content.
+
+Android gives you a world-class platform for creating apps and games for Android users everywhere, as well as an open marketplace for distributing to them instantly.
+</p>
+
+
+		<a class='button' data-slide='3' title=''></a>
+		</div>
+		<div class="video-slide-2">
+			   <iframe width="600" height="340 " autoplay src="https://www.youtube.com/embed/hTtlLiUTowY" frameborder="0" allowfullscreen></iframe>
+		</div>
+
+		</div>
+	<div class="slide" id="slide3" data-slide='3' data-stellar-backgrounrd-ratio='0.5'>
+	<div class="box" align="center">
+	<h1>History</h1>
+	<p>In just 6 years, Google's mobile operating system has grown into one of the most pervasive mobile platforms on the planet. Though it has changed dramatically, it's remarkable just how much of the platform they got right from the very beginning. Here's a look back at Android's evolution from Cupcake and Donut to KitKat and Lollipop.
+</p>
+<a href="history.html"><button type="button" class="btn btn-success">Know More</button></a>
+		<a class='button' data-slide='4' title=''></a>
+	</div>
+	</div>
+	<div class="slide" id="slide4" data-slide='4' data-stellar-backgrounrd-ratio='0.5'>
+	<div class="col-md-6" align="left">
+	<div id="right">
+	<h2>The Android Story</h2>
+	<p1>Android is the operating system that powers more than one billion smartphones and tablets. Since these devices make our lives so sweet, each Android version is named after a dessert. Whether it's getting directions or even slicing virtual fruit, each Android release makes something new possible.
+</p1><br>
+<a href="http://www.xcubelabs.com/infographic-android-story/" align="center">Learn more</a>
+		<a class='button' data-slide='5' title=''></a>
+		</div>
+	</div>
+	</div>
+	<div class="slide" id="slide5" data-slide='1' data-stellar-backgrounrd-ratio='0.5'>
+		<div class="lastbox" align="center">
+	<h3>Customised by you, for you</h3>
+	<p>Put the stuff that you care about right on your home screen: the latest news, the weather or a stream of your recent photos.
+    </p>
+    <a href="https://www.android.com/phones/#tips" align="center">Learn more</a>
+		<a class='button' data-slide='2' title=''></a>
+		</div>
+	</div>
+
+
+	
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<footer>
+	Copyright &copy; Vaibhav.Singh
+</footer>
+</body>
+</html>

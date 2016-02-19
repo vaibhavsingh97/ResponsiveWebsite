@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mobile Operating System | Android</title>
+	<script type="text/javascript" src='http://codeorigin.jquery.com/jquery-2.0.3.min.js'></script>
+	<script type="text/javascript" src='js/jquery.stellar.min.js'></script>
+	<script type="text/javascript" src='js/jquery.waypoints.js'></script>
+	<script type="text/javascript" src='js/jquery.easing.1.3.js'></script>
+	<script type="text/javascript" src='js/waypoints.js'></script>
+	<script type="text/javascript" src='js/main.js'></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="ios-css/style.css">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+       <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>	
+	   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+	<script>
+ 
+    
+
+  
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+  
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+
+
+</script>
+
+</head>
+<body>
+<nav>
+	<ul class="navigation">
+	<li class="back"><a href="index.html">Back to Home</a></li>
+	<li data-slide='1'><a href="#slide2" class="active">About ios</li>
+	<li data-slide='2'><a href="#slide3">History of ios</li>
+	</ul>
+</nav>
+<div class="main">	</div>
+
+	<div class="slide" id="slide1" data-slide='1' data-stellar-backgrounrd-ratio='0.5'>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 slide-1-logo">
+					<img src="img/ioslogo.png" class="mainimg">					
+				</div>
+				<div class="box"><h1>What is iOS?</h1></div>
+				<p>iOS is the foundation of iPhone, iPad and iPod touch. It comes with a collection of apps that let you do the everyday things, and the not-so-everyday things, in ways that are intuitive, simple and fun. And it&apos;s loaded with useful features you&apos;ll wonder how you ever did without	</p>
+				
+			</div>	
+		</div>
+		<a class="button" data-slide='2' title=''></a>
+	</div>
+	<div class="slide" id="slide2" data-slide='2' data-stellar-backgrounrd-ratio='0.5'>
+	<div class="transbox">
+	<h1>About</h1>
+	<p>iOS (originally iPhone OS) is a mobile operating system developed by Apple Inc. and distributed exclusively for Apple hardware. It is the operating system that presently powers many of the company&apos;s mobile devices, including the iPhone, iPad, and iPod touch.
+
+Originally unveiled in 2007 for the iPhone, it has been extended to support other Apple devices such as the iPod Touch (September 2007), iPad (January 2010), iPad Mini (November 2012) and second-generation Apple TV onward (September 2010). As of January 2015, Apple&apos;s App Store contained more than 1.4 million iOS applications, 725,000 of which are native for iPad. These mobile apps have collectively been downloaded more than 75 billion times. It had a 21% share of the smartphone mobile operating system units shipped in the fourth quarter of 2012, behind Google&apos;s Android. By the middle of 2012, there were 410 million devices activated. At WWDC 2014, Tim Cook said 800 million devices had been sold by June 2014. During Apple&apos;s quarterly earnings call in January 27, 2015, Apple announced that they have now sold one billion iOS devices.
+</p>
+
+		<a class='button' data-slide='3' title=''></a>
+		</div>
+
+		
+
+		</div>
+		<div class="video-slide-2">
+			   <iframe width="600" height="340 " autoplay src="https://www.youtube.com/watch?v=5b2F1iO2ag0" frameborder="0" allowfullscreen></iframe>
+		</div>
+	<div class="slide" id="slide3" data-slide='3' data-stellar-backgrounrd-ratio='0.5'>
+	<div class="box" align="center">
+	<h1>History</h1>
+	<p>Apple&apos;s iOS (previously known as the iPhone OS) has come a long way &#45;6 and a half years in the making for 6 generations of iPhones, together with multiple generations of iPads, and iPods. If you&apos;re someone who started out with an iPhone 4 and not know what came before that, then take a trip with us down memory lane to check out the history of Apple&apos;s iOS and the features that were introduced in previous WWDC events.
+</p>
+<a href="history.html"><button type="button" class="btn btn-success">Know More</button></a>
+		<a class='button' data-slide='4' title=''></a>
+	</div>
+	</div>
+
+	<div class="slide" id="slide3" data-slide='3' data-stellar-backgrounrd-ratio='0.5'>
+	<div class="box" align="center">
+	<h1>History</h1>
+	<p>Apple&apos;s iOS (previously known as the iPhone OS) has come a long way &#45;6 and a half years in the making for 6 generations of iPhones, together with multiple generations of iPads, and iPods. If you&apos;re someone who started out with an iPhone 4 and not know what came before that, then take a trip with us down memory lane to check out the history of Apple&apos;s iOS and the features that were introduced in previous WWDC events.
+</p>
+<a href="history.html"><button type="button" class="btn btn-success">Know More</button></a>
+		<a class='button' data-slide='4' title=''></a>
+	</div>
+	</div>
+	
+
+	
+
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<footer>
+	Copyright &copy; Vaibhav.Singh
+</footer>
+</body>
+</html>
